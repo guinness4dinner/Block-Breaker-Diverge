@@ -6,9 +6,9 @@ public class Paddle : MonoBehaviour
 {
 
     [SerializeField] LevelManager levelManager;
-    [SerializeField] float screenWidthInUnits = 16f;
-    [SerializeField] float paddleMinClamp = 1f;
-    [SerializeField] float paddleMaxClamp = 15f;
+    [SerializeField] float screenWidthInUnits = 21.333333f;
+    [SerializeField] float paddleMinClamp = 5f;
+    [SerializeField] float paddleMaxClamp = 19f;
     [SerializeField] AudioSource paddleHitSound;
     public bool enableMovement = true;
 
@@ -24,6 +24,7 @@ public class Paddle : MonoBehaviour
         if (enableMovement)
         {
             float mousePosInUnits = Input.mousePosition.x / Screen.width * screenWidthInUnits;
+            Debug.Log(mousePosInUnits);
             Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);
             paddlePos.x = Mathf.Clamp(mousePosInUnits, paddleMinClamp, paddleMaxClamp);
             transform.position = paddlePos;
