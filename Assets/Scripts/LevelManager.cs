@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 
 public class LevelManager : MonoBehaviour {
@@ -10,12 +11,13 @@ public class LevelManager : MonoBehaviour {
     [SerializeField] Paddle paddle1;
     [SerializeField] GameObject win;
     [SerializeField] int lives = 2;
+    [SerializeField] TextMeshProUGUI livesText;
     public bool lostBall = false;
 
     // Use this for initialization
     void Start () 
     {
-
+        livesText.text = lives.ToString();
     }
 
 
@@ -33,7 +35,6 @@ public class LevelManager : MonoBehaviour {
 
         if (lostBall == true)
         {
-            Debug.Log("Lost Ball");
             if (lives == 0)
             {
                 SceneManager.LoadScene("Game Over");
@@ -41,6 +42,7 @@ public class LevelManager : MonoBehaviour {
             else 
             {
                 lives--;
+                livesText.text = lives.ToString();
                 paddle1.GetComponent<Paddle>().enableMovement = false;
                 ball1.GetComponent<Rigidbody2D>().Sleep();
                 ball1.GetComponent<Ball>().MoveBallToPaddle();
