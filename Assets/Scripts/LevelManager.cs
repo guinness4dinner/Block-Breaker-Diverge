@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour {
     void Start () 
     {
         livesText.text = lives.ToString();
+        Cursor.visible = false;
     }
 
 
@@ -32,12 +33,14 @@ public class LevelManager : MonoBehaviour {
             Destroy(ball1.GetComponent<Rigidbody2D>());
             paddle1.GetComponent<Paddle>().enableMovement = false;
             win.SetActive(true);
+            Cursor.visible = true;
         }
 
         if (lostBall == true)
         {
             if (lives == 0)
             {
+                Cursor.visible = true;
                 SceneManager.LoadScene("Game Over");
             }
             else 
