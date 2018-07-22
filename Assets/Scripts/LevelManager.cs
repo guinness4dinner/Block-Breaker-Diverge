@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour {
     [SerializeField] int lives = 2;
     [SerializeField] TextMeshProUGUI livesText;
     public bool lostBall = false;
+    public bool hasStarted = false;
 
     // Use this for initialization
     void Start () 
@@ -46,7 +47,7 @@ public class LevelManager : MonoBehaviour {
                 paddle1.GetComponent<Paddle>().enableMovement = false;
                 ball1.GetComponent<Rigidbody2D>().Sleep();
                 ball1.GetComponent<Ball>().MoveBallToPaddle();
-                ball1.GetComponent<Ball>().hasStarted = false;
+                hasStarted = false;
                 ball1.GetComponent<Rigidbody2D>().WakeUp();
                 paddle1.GetComponent<Paddle>().enableMovement = true;
             }

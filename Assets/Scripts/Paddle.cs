@@ -5,6 +5,7 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
 
+    [SerializeField] LevelManager levelManager;
     [SerializeField] float screenWidthInUnits = 16f;
     [SerializeField] float paddleMinClamp = 1f;
     [SerializeField] float paddleMaxClamp = 15f;
@@ -32,7 +33,7 @@ public class Paddle : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Ball") == true)
+        if (collision.gameObject.tag.Equals("Ball") == true && levelManager.GetComponent<LevelManager>().hasStarted)
         {
             paddleHitSound.Play();
         }

@@ -7,11 +7,11 @@ public class Ball : MonoBehaviour {
 
     //Config params
     [SerializeField] Paddle paddle1;
+    [SerializeField] LevelManager levelManager;
     [SerializeField] float xPaddleOffsetStart = 0f;
     [SerializeField] float yPaddleOffsetStart = 0.7f;
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
-    public bool hasStarted = false;
 
     //state
     Vector2 ballStartPos;
@@ -35,7 +35,7 @@ public class Ball : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        if (!hasStarted)
+        if (!levelManager.GetComponent<LevelManager>().hasStarted)
         {
             LockBallToPaddle();
             LaunchOnMouseClick();
@@ -46,7 +46,7 @@ public class Ball : MonoBehaviour {
     {
        if (Input.GetMouseButtonDown(0))
        {
-            hasStarted = true;
+            levelManager.GetComponent<LevelManager>().hasStarted = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush); 
        }
     }
