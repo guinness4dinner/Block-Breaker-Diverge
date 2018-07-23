@@ -8,6 +8,8 @@ public class Ball : MonoBehaviour {
     //Config params
     [SerializeField] Paddle paddle1;
     [SerializeField] LevelManager levelManager;
+    [SerializeField] AudioClip paddleHitSound;
+    [SerializeField] AudioClip blockHitSound;
     [SerializeField] float xPaddleOffsetStart = 0f;
     [SerializeField] float yPaddleOffsetStart = 0.7f;
     [SerializeField] float xPush = 2f;
@@ -17,11 +19,13 @@ public class Ball : MonoBehaviour {
     Vector2 ballStartPos;
     Vector2 paddleToBallVector;
 
-
+    //Component References
+    AudioSource ballAudioSource;
 
 	// Use this for initialization
 	void Start ()
     {
+        ballAudioSource = GetComponent<AudioSource>();
         MoveBallToPaddle();
     }
 
@@ -35,7 +39,7 @@ public class Ball : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        if (!levelManager.GetComponent<LevelManager>().hasStarted)
+        if (!levelManager.hasStarted)
         {
             LockBallToPaddle();
             LaunchOnMouseClick();
@@ -46,7 +50,7 @@ public class Ball : MonoBehaviour {
     {
        if (Input.GetMouseButtonDown(0))
        {
-            levelManager.GetComponent<LevelManager>().hasStarted = true;
+            levelManager.hasStarted = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush); 
        }
     }
@@ -56,4 +60,17 @@ public class Ball : MonoBehaviour {
         Vector2 paddlePos = new Vector2(paddle1.transform.position.x, paddle1.transform.position.y);
         transform.position = paddlePos + paddleToBallVector;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Paddle") == true && levelManager.hasStarted)
+        {
+            ballAudioSource.PlayOneShot(paddleHitSound);
+        }
+        else if (collision.gameObject.tag.Equals("Block") == true)
+        {
+            ballAudioSource.PlayOneShot(blockHitSound);
+        }
+    }
+
 }

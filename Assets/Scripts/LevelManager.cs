@@ -31,7 +31,7 @@ public class LevelManager : MonoBehaviour {
         if (foundBlocks.Length == 0)
         {
             Destroy(ball1.GetComponent<Rigidbody2D>());
-            paddle1.GetComponent<Paddle>().enableMovement = false;
+            paddle1.enableMovement = false;
             win.SetActive(true);
             Cursor.visible = true;
         }
@@ -47,12 +47,12 @@ public class LevelManager : MonoBehaviour {
             {
                 lives--;
                 livesText.text = lives.ToString();
-                paddle1.GetComponent<Paddle>().enableMovement = false;
+                paddle1.enableMovement = false;
                 ball1.GetComponent<Rigidbody2D>().Sleep();
-                ball1.GetComponent<Ball>().MoveBallToPaddle();
                 hasStarted = false;
+                ball1.MoveBallToPaddle();              
                 ball1.GetComponent<Rigidbody2D>().WakeUp();
-                paddle1.GetComponent<Paddle>().enableMovement = true;
+                paddle1.enableMovement = true;
             }
             lostBall = false;
         }

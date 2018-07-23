@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4312965199606178}
   - component: {fileID: 212318248524485164}
   - component: {fileID: 60213855510921470}
-  - component: {fileID: 114765805565743054}
+  - component: {fileID: 114445673274394544}
   m_Layer: 0
   m_Name: Paddle
-  m_TagString: Untagged
+  m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,7 +88,7 @@ PolygonCollider2D:
       - {x: 0.79804134, y: 0.09920919}
       - {x: 0.71582603, y: 0.1448155}
       - {x: 0.61588764, y: 0.17821294}
---- !u!114 &114765805565743054
+--- !u!114 &114445673274394544
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,7 +103,6 @@ MonoBehaviour:
   screenWidthInUnits: 21.333332
   paddleMinClamp: 5
   paddleMaxClamp: 19
-  paddleHitSound: {fileID: 0}
   enableMovement: 1
 --- !u!212 &212318248524485164
 SpriteRenderer:
