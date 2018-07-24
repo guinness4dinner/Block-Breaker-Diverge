@@ -63,11 +63,11 @@ public class Ball : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Paddle") == true && levelManager.hasStarted)
+        if (collision.gameObject.GetComponent<Paddle>() && levelManager.hasStarted)
         {
             ballAudioSource.PlayOneShot(paddleHitSound);
         }
-        else if (collision.gameObject.tag.Equals("Block") == true)
+        else if (collision.gameObject.GetComponent<Block>())
         {
             ballAudioSource.PlayOneShot(blockHitSound);
         }
