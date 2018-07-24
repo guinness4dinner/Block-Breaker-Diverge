@@ -216,7 +216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddle1: {fileID: 0}
-  levelManager: {fileID: 0}
   paddleHitSound: {fileID: 8300000, guid: 8e05756e7518ba84ca551f2f9219d9c9, type: 3}
   blockHitSound: {fileID: 8300000, guid: 4db8387c05438a0469a5d16eab04cbef, type: 3}
   xPaddleOffsetStart: 0

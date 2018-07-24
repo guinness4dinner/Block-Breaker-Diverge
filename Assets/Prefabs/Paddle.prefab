@@ -99,7 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e798f8a27c7a1d48b36b2edb1a3ab0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
   screenWidthInUnits: 21.333332
   paddleMinClamp: 5
   paddleMaxClamp: 19

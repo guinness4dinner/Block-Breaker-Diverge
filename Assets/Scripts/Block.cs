@@ -6,7 +6,6 @@ public class Block : MonoBehaviour {
 
     [SerializeField] Sprite[] blockBroken;
     int currentBlockIndex = 0;
-    AudioSource blockHitSound;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

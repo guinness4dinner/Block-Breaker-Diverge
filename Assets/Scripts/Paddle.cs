@@ -5,17 +5,16 @@ using UnityEngine;
 public class Paddle : MonoBehaviour
 {
 
-    [SerializeField] LevelManager levelManager;
     [SerializeField] float screenWidthInUnits = 21.333333f;
     [SerializeField] float paddleMinClamp = 5f;
     [SerializeField] float paddleMaxClamp = 19f;
     public bool enableMovement = true;
-    
 
+    LevelManager levelManager;
     // Use this for initialization
     void Start()
     {
-
+        levelManager = FindObjectOfType<LevelManager>();
     }
 
     // Update is called once per frame

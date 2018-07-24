@@ -7,7 +7,6 @@ public class Ball : MonoBehaviour {
 
     //Config params
     [SerializeField] Paddle paddle1;
-    [SerializeField] LevelManager levelManager;
     [SerializeField] AudioClip paddleHitSound;
     [SerializeField] AudioClip blockHitSound;
     [SerializeField] float xPaddleOffsetStart = 0f;
@@ -21,10 +20,12 @@ public class Ball : MonoBehaviour {
 
     //Component References
     AudioSource ballAudioSource;
+    LevelManager levelManager;
 
 	// Use this for initialization
 	void Start ()
     {
+        levelManager = FindObjectOfType<LevelManager>();
         ballAudioSource = GetComponent<AudioSource>();
         MoveBallToPaddle();
     }
