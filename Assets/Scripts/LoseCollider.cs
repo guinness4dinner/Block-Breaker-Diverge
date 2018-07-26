@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class LoseCollider : MonoBehaviour 
 {
-    [SerializeField] GameObject levelManager;
+    LevelManager levelManager;
+
+    private void Start()
+    {
+        levelManager = FindObjectOfType<LevelManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        levelManager.GetComponent<LevelManager>().lostBall = true;
+    {       
+        levelManager.LostBall();
     }
 
 }

@@ -5,31 +5,31 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Level Block Grid")]
 public class LevelBlockGrid : ScriptableObject 
 {
-    [TextArea(1, 2)] [SerializeField] string row1Types;
-    [TextArea(1, 2)] [SerializeField] string row2Types;
-    [TextArea(1, 2)] [SerializeField] string row3Types;
-    [TextArea(1, 2)] [SerializeField] string row4Types;
-    [TextArea(1, 2)] [SerializeField] string row5Types;
-    [TextArea(1, 2)] [SerializeField] string row6Types;
-    [TextArea(1, 2)] [SerializeField] string row7Types;
-    [TextArea(1, 2)] [SerializeField] string row8Types;
-    [TextArea(1, 2)] [SerializeField] string row9Types;
-    [TextArea(1, 2)] [SerializeField] string row10Types;
-    [TextArea(1, 2)] [SerializeField] string row11Types;
-    [TextArea(1, 2)] [SerializeField] string row12Types;
+    [SerializeField] string row1Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row2Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row3Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row4Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row5Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row6Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row7Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row8Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row9Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row10Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row11Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row12Types = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
     [SerializeField] Transform[] blockTypes;
-    [TextArea(1, 2)] [SerializeField] string row1Colors;
-    [TextArea(1, 2)] [SerializeField] string row2Colors;
-    [TextArea(1, 2)] [SerializeField] string row3Colors;
-    [TextArea(1, 2)] [SerializeField] string row4Colors;
-    [TextArea(1, 2)] [SerializeField] string row5Colors;
-    [TextArea(1, 2)] [SerializeField] string row6Colors;
-    [TextArea(1, 2)] [SerializeField] string row7Colors;
-    [TextArea(1, 2)] [SerializeField] string row8Colors;
-    [TextArea(1, 2)] [SerializeField] string row9Colors;
-    [TextArea(1, 2)] [SerializeField] string row10Colors;
-    [TextArea(1, 2)] [SerializeField] string row11Colors;
-    [TextArea(1, 2)] [SerializeField] string row12Colors;
+    [SerializeField] string row1Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row2Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row3Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row4Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row5Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row6Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row7Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row8Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row9Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row10Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row11Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
+    [SerializeField] string row12Colors = "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0";
     [SerializeField] Color[] colors;
 
 

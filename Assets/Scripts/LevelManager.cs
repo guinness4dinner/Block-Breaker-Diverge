@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour {
     [SerializeField] GameObject win;
     [SerializeField] int lives = 2;
     [SerializeField] TextMeshProUGUI livesText;
-    public bool lostBall = false;
+    [SerializeField] int breakableBlocks = 0; //serialized for debug purposes
     public bool hasStarted = false;
 
     // Use this for initialization
@@ -27,34 +27,43 @@ public class LevelManager : MonoBehaviour {
     // Update is called once per frame
     void Update () 
     {
-        var foundBlocks = FindObjectsOfType<Block>();
-        if (foundBlocks.Length == 0)
+
+	}
+
+    public void CountBreakableBlocks()
+    {
+        breakableBlocks++;
+    }
+
+    public void BlockDestoyed()
+    {
+        breakableBlocks--;
+        if (breakableBlocks <= 0)
         {
             Destroy(ball1.GetComponent<Rigidbody2D>());
             paddle1.enableMovement = false;
             win.SetActive(true);
             Cursor.visible = true;
         }
+    }
 
-        if (lostBall == true)
+    public void LostBall()
+    {
+        if (lives == 0)
         {
-            if (lives == 0)
-            {
-                Cursor.visible = true;
-                SceneManager.LoadScene("Game Over");
-            }
-            else 
-            {
-                lives--;
-                livesText.text = lives.ToString();
-                paddle1.enableMovement = false;
-                ball1.GetComponent<Rigidbody2D>().Sleep();
-                hasStarted = false;
-                ball1.MoveBallToPaddle();              
-                ball1.GetComponent<Rigidbody2D>().WakeUp();
-                paddle1.enableMovement = true;
-            }
-            lostBall = false;
+            Cursor.visible = true;
+            SceneManager.LoadScene("Game Over");
         }
-	}
+        else
+        {
+            lives--;
+            livesText.text = lives.ToString();
+            paddle1.enableMovement = false;
+            ball1.GetComponent<Rigidbody2D>().Sleep();
+            hasStarted = false;
+            ball1.MoveBallToPaddle();
+            ball1.GetComponent<Rigidbody2D>().WakeUp();
+            paddle1.enableMovement = true;
+        }
+    }
 }
