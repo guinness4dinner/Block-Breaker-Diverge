@@ -22,14 +22,6 @@ public class LevelManager : MonoBehaviour {
         Cursor.visible = false;
     }
 
-
-
-    // Update is called once per frame
-    void Update () 
-    {
-
-	}
-
     public void CountBreakableBlocks()
     {
         breakableBlocks++;
