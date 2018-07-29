@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class LoseCollider : MonoBehaviour 
 {
-    LevelManager levelManager;
+    GameManager gameManager;
 
     private void Start()
     {
-        levelManager = FindObjectOfType<LevelManager>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {       
-        levelManager.LostBall();
+        gameManager.LostBall();
     }
 
 }

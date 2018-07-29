@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
 
-    public void LoadNextScene()
+    public void LoadNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (currentSceneIndex < SceneManager.sceneCountInBuildSettings - 1)
@@ -14,14 +14,27 @@ public class SceneLoader : MonoBehaviour {
         }
         else
         {
-            SceneManager.LoadScene(0);
+            LoadMainMenu();
         }
         
     }
 
-    public void QuitGame()
+    public void LoadMainMenu()
     {
-        Application.Quit();
+        if (FindObjectOfType<GameManager>())
+        {
+            FindObjectOfType<GameManager>().ResetGame();
+        }
+        SceneManager.LoadScene(0);      
+    }
+
+    public void LoadGameOver()
+    {
+        if (FindObjectOfType<GameManager>())
+        {
+            FindObjectOfType<GameManager>().ResetGame();
+        }
+        SceneManager.LoadScene("Game Over");      
     }
 
 }

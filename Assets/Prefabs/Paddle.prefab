@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e798f8a27c7a1d48b36b2edb1a3ab0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenWidthInUnits: 21.333332
-  paddleMinClamp: 5
-  paddleMaxClamp: 19
+  screenWidthInUnits: 16
+  paddleMinClamp: 1
+  paddleMaxClamp: 15
   enableMovement: 1
 --- !u!212 &212318248524485164
 SpriteRenderer:

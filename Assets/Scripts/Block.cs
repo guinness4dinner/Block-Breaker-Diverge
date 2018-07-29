@@ -8,20 +8,23 @@ public class Block : MonoBehaviour {
     int currentBlockIndex = 0;
 
     LevelManager levelManager;
+    GameManager gameManager;
 
     private void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
         levelManager.CountBreakableBlocks();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (currentBlockIndex > blockBroken.Length - 1)
-            {
-                Destroy(gameObject);
-                levelManager.BlockDestoyed();
-            }
+        {
+            gameManager.IncreaseScore();
+            levelManager.BlockDestoyed();
+            Destroy(gameObject);
+        }
             else
             {
                 GetComponent<SpriteRenderer>().sprite = blockBroken[currentBlockIndex];
