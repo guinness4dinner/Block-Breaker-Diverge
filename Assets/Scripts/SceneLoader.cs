@@ -30,10 +30,6 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadGameOver()
     {
-        if (FindObjectOfType<GameManager>())
-        {
-            FindObjectOfType<GameManager>().ResetGame();
-        }
         SceneManager.LoadScene("Game Over");      
     }
 

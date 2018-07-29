@@ -55,3 +55,4 @@ MonoBehaviour:
   paddle1: {fileID: 0}
   winCanvas: {fileID: 0}
   breakableBlocks: 0
+  pauseMenu: {fileID: 0}

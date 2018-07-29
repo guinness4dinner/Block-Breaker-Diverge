@@ -20,11 +20,13 @@ public class Ball : MonoBehaviour {
 
     //Component References
     AudioSource ballAudioSource;
+    LevelManager levelManager;
     GameManager gameManager;
 
 	// Use this for initialization
 	void Start ()
     {
+        levelManager = FindObjectOfType<LevelManager>();
         gameManager = FindObjectOfType<GameManager>();
         ballAudioSource = GetComponent<AudioSource>();
         MoveBallToPaddle();
@@ -40,7 +42,7 @@ public class Ball : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        if (!gameManager.hasStarted)
+        if (!levelManager.hasStarted)
         {
             LockBallToPaddle();
             LaunchOnMouseClick();
@@ -51,7 +53,7 @@ public class Ball : MonoBehaviour {
     {
        if (Input.GetMouseButtonDown(0) && gameManager.gameSpeed > 0f)
        {
-            gameManager.hasStarted = true;
+            levelManager.hasStarted = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush); 
        }
     }
@@ -64,7 +66,7 @@ public class Ball : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Paddle>() && gameManager.hasStarted)
+        if (collision.gameObject.GetComponent<Paddle>() && levelManager.hasStarted)
         {
             ballAudioSource.PlayOneShot(paddleHitSound);
         }

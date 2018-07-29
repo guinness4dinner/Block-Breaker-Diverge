@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 public class UIManager : MonoBehaviour {
 
-    GameManager gameManager;
+    LevelManager levelManager;
     //SoundManager soundManager;
 
     
 	// Use this for initialization
 	void Start () 
     {
-        gameManager = FindObjectOfType<GameManager>();	
+        levelManager = FindObjectOfType<LevelManager>();	
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            gameManager.TogglePauseMenu();
+            levelManager.TogglePauseMenu();
         }
     }
 }
