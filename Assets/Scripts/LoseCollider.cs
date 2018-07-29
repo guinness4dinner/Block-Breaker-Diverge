@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class LoseCollider : MonoBehaviour 
 {
-    GameManager gameManager;
+    GameSession gameManager;
 
     private void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameSession>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -8,13 +8,13 @@ public class Block : MonoBehaviour {
     int currentBlockIndex = 0;
 
     LevelManager levelManager;
-    GameManager gameManager;
+    GameSession gameManager;
 
     private void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
         levelManager.CountBreakableBlocks();
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameSession>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

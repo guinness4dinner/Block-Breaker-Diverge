@@ -21,13 +21,13 @@ public class Ball : MonoBehaviour {
     //Component References
     AudioSource ballAudioSource;
     LevelManager levelManager;
-    GameManager gameManager;
+    GameSession gameManager;
 
 	// Use this for initialization
 	void Start ()
     {
         levelManager = FindObjectOfType<LevelManager>();
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameSession>();
         ballAudioSource = GetComponent<AudioSource>();
         MoveBallToPaddle();
     }
