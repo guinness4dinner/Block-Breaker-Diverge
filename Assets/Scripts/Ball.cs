@@ -21,13 +21,11 @@ public class Ball : MonoBehaviour {
     //Component References
     AudioSource ballAudioSource;
     LevelManager levelManager;
-    GameSession gameManager;
 
 	// Use this for initialization
 	void Start ()
     {
         levelManager = FindObjectOfType<LevelManager>();
-        gameManager = FindObjectOfType<GameSession>();
         ballAudioSource = GetComponent<AudioSource>();
         MoveBallToPaddle();
     }
@@ -51,7 +49,7 @@ public class Ball : MonoBehaviour {
 
     private void LaunchOnMouseClick()
     {
-       if (Input.GetMouseButtonDown(0) && gameManager.gameSpeed > 0f)
+       if (Input.GetMouseButtonDown(0)) //&& gameManager.gameSpeed > 0f)
        {
             levelManager.hasStarted = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush); 

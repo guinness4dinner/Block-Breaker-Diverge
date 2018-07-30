@@ -368,11 +368,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
-  livesText: {fileID: 114264824058125262}
-  scoreText: {fileID: 114411197367344054}
   gameSpeed: 1
   pointsPerBlockBreak: 72
   currentScore: 0
+  livesText: {fileID: 114264824058125262}
+  scoreText: {fileID: 114411197367344054}
 --- !u!222 &222147415182444612
 CanvasRenderer:
   m_ObjectHideFlags: 1

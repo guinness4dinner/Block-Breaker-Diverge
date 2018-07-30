@@ -1,0 +1,3447 @@
+fileFormatVersion: 2
+guid: 6a987066d68eda149aaeacb08ac8bed9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mobile - Arkanoid iOS - General Sprites_0
+    21300002: Mobile - Arkanoid iOS - General Sprites_1
+    21300004: Mobile - Arkanoid iOS - General Sprites_2
+    21300006: Mobile - Arkanoid iOS - General Sprites_3
+    21300008: Mobile - Arkanoid iOS - General Sprites_4
+    21300010: Mobile - Arkanoid iOS - General Sprites_5
+    21300012: Mobile - Arkanoid iOS - General Sprites_6
+    21300014: Mobile - Arkanoid iOS - General Sprites_7
+    21300016: Mobile - Arkanoid iOS - General Sprites_8
+    21300018: Mobile - Arkanoid iOS - General Sprites_9
+    21300020: Mobile - Arkanoid iOS - General Sprites_10
+    21300022: Mobile - Arkanoid iOS - General Sprites_11
+    21300024: Mobile - Arkanoid iOS - General Sprites_12
+    21300026: Mobile - Arkanoid iOS - General Sprites_13
+    21300028: Mobile - Arkanoid iOS - General Sprites_14
+    21300030: Mobile - Arkanoid iOS - General Sprites_15
+    21300032: Mobile - Arkanoid iOS - General Sprites_16
+    21300034: Mobile - Arkanoid iOS - General Sprites_17
+    21300036: Mobile - Arkanoid iOS - General Sprites_18
+    21300038: Mobile - Arkanoid iOS - General Sprites_19
+    21300040: Mobile - Arkanoid iOS - General Sprites_20
+    21300042: Mobile - Arkanoid iOS - General Sprites_21
+    21300044: Mobile - Arkanoid iOS - General Sprites_22
+    21300046: Mobile - Arkanoid iOS - General Sprites_23
+    21300048: Mobile - Arkanoid iOS - General Sprites_24
+    21300050: Mobile - Arkanoid iOS - General Sprites_25
+    21300052: Mobile - Arkanoid iOS - General Sprites_26
+    21300054: Mobile - Arkanoid iOS - General Sprites_27
+    21300056: Mobile - Arkanoid iOS - General Sprites_28
+    21300058: Mobile - Arkanoid iOS - General Sprites_29
+    21300060: Mobile - Arkanoid iOS - General Sprites_30
+    21300062: Mobile - Arkanoid iOS - General Sprites_31
+    21300064: Mobile - Arkanoid iOS - General Sprites_32
+    21300066: Mobile - Arkanoid iOS - General Sprites_33
+    21300068: Mobile - Arkanoid iOS - General Sprites_34
+    21300070: Mobile - Arkanoid iOS - General Sprites_35
+    21300072: Mobile - Arkanoid iOS - General Sprites_36
+    21300074: Mobile - Arkanoid iOS - General Sprites_37
+    21300076: Mobile - Arkanoid iOS - General Sprites_38
+    21300078: Mobile - Arkanoid iOS - General Sprites_39
+    21300080: Mobile - Arkanoid iOS - General Sprites_40
+    21300082: Mobile - Arkanoid iOS - General Sprites_41
+    21300084: Mobile - Arkanoid iOS - General Sprites_42
+    21300086: Mobile - Arkanoid iOS - General Sprites_43
+    21300088: Mobile - Arkanoid iOS - General Sprites_44
+    21300090: Mobile - Arkanoid iOS - General Sprites_45
+    21300092: Mobile - Arkanoid iOS - General Sprites_46
+    21300094: Mobile - Arkanoid iOS - General Sprites_47
+    21300096: Mobile - Arkanoid iOS - General Sprites_48
+    21300098: Mobile - Arkanoid iOS - General Sprites_49
+    21300100: Mobile - Arkanoid iOS - General Sprites_50
+    21300102: Mobile - Arkanoid iOS - General Sprites_51
+    21300104: Mobile - Arkanoid iOS - General Sprites_52
+    21300106: Mobile - Arkanoid iOS - General Sprites_53
+    21300108: Mobile - Arkanoid iOS - General Sprites_54
+    21300110: Mobile - Arkanoid iOS - General Sprites_55
+    21300112: Mobile - Arkanoid iOS - General Sprites_56
+    21300114: Mobile - Arkanoid iOS - General Sprites_57
+    21300116: Mobile - Arkanoid iOS - General Sprites_58
+    21300118: Mobile - Arkanoid iOS - General Sprites_59
+    21300120: Mobile - Arkanoid iOS - General Sprites_60
+    21300122: Mobile - Arkanoid iOS - General Sprites_61
+    21300124: Mobile - Arkanoid iOS - General Sprites_62
+    21300126: Mobile - Arkanoid iOS - General Sprites_63
+    21300128: Mobile - Arkanoid iOS - General Sprites_64
+    21300130: Mobile - Arkanoid iOS - General Sprites_65
+    21300132: Mobile - Arkanoid iOS - General Sprites_66
+    21300134: Mobile - Arkanoid iOS - General Sprites_67
+    21300136: Mobile - Arkanoid iOS - General Sprites_68
+    21300138: Mobile - Arkanoid iOS - General Sprites_69
+    21300140: Mobile - Arkanoid iOS - General Sprites_70
+    21300142: Mobile - Arkanoid iOS - General Sprites_71
+    21300144: Mobile - Arkanoid iOS - General Sprites_72
+    21300146: Mobile - Arkanoid iOS - General Sprites_73
+    21300148: Mobile - Arkanoid iOS - General Sprites_74
+    21300150: Mobile - Arkanoid iOS - General Sprites_75
+    21300152: Mobile - Arkanoid iOS - General Sprites_76
+    21300154: Mobile - Arkanoid iOS - General Sprites_77
+    21300156: Mobile - Arkanoid iOS - General Sprites_78
+    21300158: Mobile - Arkanoid iOS - General Sprites_79
+    21300160: Mobile - Arkanoid iOS - General Sprites_80
+    21300162: Mobile - Arkanoid iOS - General Sprites_81
+    21300164: Mobile - Arkanoid iOS - General Sprites_82
+    21300166: Mobile - Arkanoid iOS - General Sprites_83
+    21300168: Mobile - Arkanoid iOS - General Sprites_84
+    21300170: Mobile - Arkanoid iOS - General Sprites_85
+    21300172: Mobile - Arkanoid iOS - General Sprites_86
+    21300174: Mobile - Arkanoid iOS - General Sprites_87
+    21300176: Mobile - Arkanoid iOS - General Sprites_88
+    21300178: Mobile - Arkanoid iOS - General Sprites_89
+    21300180: Mobile - Arkanoid iOS - General Sprites_90
+    21300182: Mobile - Arkanoid iOS - General Sprites_91
+    21300184: Mobile - Arkanoid iOS - General Sprites_92
+    21300186: Mobile - Arkanoid iOS - General Sprites_93
+    21300188: Mobile - Arkanoid iOS - General Sprites_94
+    21300190: Mobile - Arkanoid iOS - General Sprites_95
+    21300192: Mobile - Arkanoid iOS - General Sprites_96
+    21300194: Mobile - Arkanoid iOS - General Sprites_97
+    21300196: Mobile - Arkanoid iOS - General Sprites_98
+    21300198: Mobile - Arkanoid iOS - General Sprites_99
+    21300200: Mobile - Arkanoid iOS - General Sprites_100
+    21300202: Mobile - Arkanoid iOS - General Sprites_101
+    21300204: Mobile - Arkanoid iOS - General Sprites_102
+    21300206: Mobile - Arkanoid iOS - General Sprites_103
+    21300208: Mobile - Arkanoid iOS - General Sprites_104
+    21300210: Mobile - Arkanoid iOS - General Sprites_105
+    21300212: Mobile - Arkanoid iOS - General Sprites_106
+    21300214: Mobile - Arkanoid iOS - General Sprites_107
+    21300216: Mobile - Arkanoid iOS - General Sprites_108
+    21300218: Mobile - Arkanoid iOS - General Sprites_109
+    21300220: Mobile - Arkanoid iOS - General Sprites_110
+    21300222: Mobile - Arkanoid iOS - General Sprites_111
+    21300224: Mobile - Arkanoid iOS - General Sprites_112
+    21300226: Mobile - Arkanoid iOS - General Sprites_113
+    21300228: Mobile - Arkanoid iOS - General Sprites_114
+    21300230: Mobile - Arkanoid iOS - General Sprites_115
+    21300232: Mobile - Arkanoid iOS - General Sprites_116
+    21300234: Mobile - Arkanoid iOS - General Sprites_117
+    21300236: Mobile - Arkanoid iOS - General Sprites_118
+    21300238: Mobile - Arkanoid iOS - General Sprites_119
+    21300240: Mobile - Arkanoid iOS - General Sprites_120
+    21300242: Mobile - Arkanoid iOS - General Sprites_121
+    21300244: Mobile - Arkanoid iOS - General Sprites_122
+    21300246: Mobile - Arkanoid iOS - General Sprites_123
+    21300248: Mobile - Arkanoid iOS - General Sprites_124
+    21300250: Mobile - Arkanoid iOS - General Sprites_125
+    21300252: Mobile - Arkanoid iOS - General Sprites_126
+    21300254: Mobile - Arkanoid iOS - General Sprites_127
+    21300256: Mobile - Arkanoid iOS - General Sprites_128
+    21300258: Mobile - Arkanoid iOS - General Sprites_129
+    21300260: Mobile - Arkanoid iOS - General Sprites_130
+    21300262: Mobile - Arkanoid iOS - General Sprites_131
+    21300264: Mobile - Arkanoid iOS - General Sprites_132
+    21300266: Mobile - Arkanoid iOS - General Sprites_133
+    21300268: Mobile - Arkanoid iOS - General Sprites_134
+    21300270: Mobile - Arkanoid iOS - General Sprites_135
+    21300272: Mobile - Arkanoid iOS - General Sprites_136
+    21300274: Mobile - Arkanoid iOS - General Sprites_137
+    21300276: Mobile - Arkanoid iOS - General Sprites_138
+    21300278: Mobile - Arkanoid iOS - General Sprites_139
+    21300280: Mobile - Arkanoid iOS - General Sprites_140
+    21300282: Mobile - Arkanoid iOS - General Sprites_141
+    21300284: Mobile - Arkanoid iOS - General Sprites_142
+    21300286: Mobile - Arkanoid iOS - General Sprites_143
+    21300288: Mobile - Arkanoid iOS - General Sprites_144
+    21300290: Mobile - Arkanoid iOS - General Sprites_145
+    21300292: Mobile - Arkanoid iOS - General Sprites_146
+    21300294: Mobile - Arkanoid iOS - General Sprites_147
+    21300296: Mobile - Arkanoid iOS - General Sprites_148
+    21300298: Mobile - Arkanoid iOS - General Sprites_149
+    21300300: Mobile - Arkanoid iOS - General Sprites_150
+    21300302: Mobile - Arkanoid iOS - General Sprites_151
+    21300304: Mobile - Arkanoid iOS - General Sprites_152
+    21300306: Mobile - Arkanoid iOS - General Sprites_153
+    21300308: Mobile - Arkanoid iOS - General Sprites_154
+    21300310: Mobile - Arkanoid iOS - General Sprites_155
+    21300312: Mobile - Arkanoid iOS - General Sprites_156
+    21300314: Mobile - Arkanoid iOS - General Sprites_157
+    21300316: Mobile - Arkanoid iOS - General Sprites_158
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 44
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8872cdaab8a53614cb75c1afdba555dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 964
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c543e421704115643804b4ab468787de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42c1633719362f4a96d1a767c353726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230faed277540b140beba03c3502cb34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2245c7bf49c8b6543bd94fbb15c67c15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b40c977efcfca4d839242964876d97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47cae45a0f9f74cb66544df9bb8a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938b0916b72b1834e8d3c082faf74180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470fd284a5ae5c34284f18e0e68edd3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 704
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c495f63a47de94e9ae4a086481ab88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 704
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e557d4622106f4a47a465b044f1e8966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 399
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89baa08c7bb5cb242b996b7279131b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 399
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72367bd4f497c5f458722ee55178632e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 399
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d4548e66895d0428560d0b364db555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 399
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598f6ccc2795c10458e4c2f85278dc10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 399
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8889b0cac7dead044afc05534a26bc97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 399
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f303c22c547287c439b0b631f689f141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 399
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6456cdc03321764e89db2ae62d3d3be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 399
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3fed60ab33e9f4bbb010b59b0952e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 400
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88817bc51b305994da718b0d8e7db192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 401
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a597920a3070cf441b6a49e1974b7957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 400
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fce1cfb739997447a2cc704d80fda24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 400
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b76534c5cd93054a9978c690873feb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 398
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc1c8cc23ecca14d83162fe5ae05439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 396
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926eb81e797fd534aa334127f859c3ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 398
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e0951ccc8a6a547ab01d4771457e67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e93cc83f52fc40945f3241ab174b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 355
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb8d9f4533f2154cb790ae443730946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 355
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11d01c815c46f94fa6a90c33776fc05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 355
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c07f953b9e2b4ab59bda126554e9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 355
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72c91a71a7a11d4da1fa30fbcb5a2d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 359
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858d6c9d7cab774081c9e401a1b81d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff4635a7c3249c488345024f13bb700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 360
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c000f2172566dad4497c50f4666ff317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 360
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee964e6f9a1775e48bca07531a5683a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 359
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1a9012fba28a34cae404f654170711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 354
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d00d03ea1ac2cb4d873f10589cb7581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 354
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a16be31a4427e41987492fd9cde00d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 356
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea44ad4b3506b2408e40dcb76049221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 356
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e65dc6f6f1a62948a1122a68e7fe513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 356
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acfc75161ba2d940b76997678ddd73a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1671d80164a8f04999ccbd7ee0f4074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc724ccdd2b0a748ae7c0baa3e65ce1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a18a9eaeb599914db5cec539cca189e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc12188b9c646b4295e281327ba74ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f53017203b00c44d8a011614104ee23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 312
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ca05e54b0b12441916fa14c2152605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 311
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37c7c27dab5fd84084ead5b852295f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 312
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fdcd5bc497c1341b293cd1e5bb6416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 311
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3749589e9ca0244bd95199bbaf1e45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 312
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d886b2963f16c4c94ff5ae3e35aec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 308
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1af07bd2d9489489edcf9af1c2908f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 308
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edefe414b5e0151449d270a1a2522be5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 310
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdfee57011cc364f91f64efeb45e089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 310
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7128fdb5fcb92e24b8ef1bd671d5c119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 308
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8830a07011fa2d8478854dc0e9dc1b28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2087cf5f2dd0b469012ed2df1452ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340f87b4390653439ac44afcf47c987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8159cb41d34a1f43bcd20a733964da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e57fc2c1e2ff954aa1a5f150a4c8b35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 267
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f0a4779f8bd84478cfa012290c4740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 270
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ddba207c5956b49a0f503cf00a254b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 271
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e772d55ce54754aad0f9ad5359da55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 271
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7218b99de20c5f418152b7fcc966171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 272
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8801ba42eb4ee664c9de0f40cbb76397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 271
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae4c54f68ff892479b42887b0ac6e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 267
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9272d3982c46b064bbf1520e0aefa3db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 269
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb3d2b36ab64de42a897927c48384c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 268
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4096599fea9dbb548be44a4640c2bdad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 267
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7cac00c216b0a4fac4b83ec4130a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 264
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd578fe7dd7ab7a4da36fcad3ad3bf36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 223
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b6cfc60b1f6d44384963296ca0d5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b13cbc93eaf141be5e06490669523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 223
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656b0501257d4c440937881e3eabf1a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 223
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c23bfa2440cd3429a080775c573d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 223
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f1cb9f6ecf0004983771ab7bef3ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 227
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f0eae4f07da674aa4bd05200b55513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d646567cde892644b6d666ee51274ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 224
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e405717f843b4a8a653b04b045fbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 223
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbeae3bf88a34640927fd4bc979d135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 223
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae075b1227b494c85b3e76af9b0b55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 180
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3834739b30d7448b858a1212f38f7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 221
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e446719262d81048a30b35d79847401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 179
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a22f24ef5ce21e45a9c7b7f610e944a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 176
+        width: 36
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bb612deb6a25c4d8eef9fce31149b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 224
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139224cab74ccb429c90b76e29a2d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 187
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6f55edc4a8724e9e185d432af2186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 184
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e94b9e18c6934088c9131132ed7c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 180
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cba5318e0efc749a4d62b27bf72aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 177
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54a68aac58be1e47a3c35c741d8e37f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 146
+        width: 36
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331f813f6daad1c409a34bc922baa0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 179
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec483cd650e46d49ac2c0fd04087e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 176
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe71e8afbc4b114280821b7c115d267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 179
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91eae6448ba0c5b4e9609176687ba61d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 181
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac24f1e6a7a717e4db63b7e3b1083201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 180
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bcf57c927f544479999d223b140214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 180
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5babed9e12e48469102346c8741a76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 176
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8a0a5c00a4c3c4da3081395f0b9d26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e3a20acc00d7543b1f508902be3733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 132
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627c0c8369df1be438c177becf396685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 136
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d8b428e6cd8c747a4d716d196d93ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 140
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1910f32369ef2542b196dea9bfb4fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 132
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff93076d6978e924984722c5ecca1b59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 136
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d502fca67fd96d42814e9b94f24a248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 135
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d05c1914526f438fb05ab3ed7fc72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 135
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e36ec5e95d8594e806572f0e8694ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 134
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39c4b4754a8ce24785301491ad361d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 133
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40929efa538a7904d93b13426a251c2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 134
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247bdd9d22cd414cbe355308d87e4ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 132
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635ea36eb6bc6541ba6a45368c9e8ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 132
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0c0b0189cfc7e40bb671f217263b91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 88
+        width: 36
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0956d0481c742a04e93f349028a6808c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e26feb41fb59d4e9665329cc77862e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 94
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19812be769fd8fa43a6e671a606adcd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 94
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893f96f7085b9a74cb472169096c5906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 95
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb79dd265eddaf4ca5bb888b315821a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 92
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89463f8c05cc1b45b33c3344e468514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 91
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8169c67eb15fa864e99d4538f3ce6ae4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 90
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0323a27480c0db345bcc865b3242c74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 92
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a696a261e750b4296b1b681c438b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 92
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830cf8dd4101f6446a20edfa95d3aa90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 88
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204f22dc25742de48857a5d9f25cef00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 88
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c738c8fce3d9745aa1bd72578fce97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 44
+        width: 36
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85760d01a5997764fadcf318ae5c8862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 88
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea1d005c05e19b46b03314b6c023c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 51
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabb38671887b3744adda5ff3b1f2e6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 52
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c1e51848e8aab4dbb2627dae1300e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 54
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38894f6a1a4bf9f49bd74c073ad7cf7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 52
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9734915cafae7742a25d138619ce94f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 48
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e0555fa29bbf4fa44942fcad5903a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 48
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be59b9aaaaba5ca4c9044330f22f8268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 52
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16a574986f967042b9d84cd164f089c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 52
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28645c247a8df64aa1afb63f6c014e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 51
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3412ce2f6290d64aac3960fed37ac86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 51
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d17fff1d928e94429ed809d7d6241e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 44
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0b7170008fffc4bbb72051d11aa56b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 44
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e165e0a36ba35f24f849952d61f1efb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 45
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f928240a4752d84a9509a5aaf21d722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 46
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80572c2aacca0a4ab8bc57597a7390e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c70faa0a7f5504bb8cba015d5fed49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77a781d23ecfbb49b3aecd242e6287a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d204dcb492bbb44b844cef102beaa2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea842a6a26022c448780317781863c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 7
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850464746f3b74948a836990cd1d1110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 8
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70809208ef5415e4c9947e6bc4bcc5c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac37f3e7483a974b82aa2c37a5755e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef41494b134164689d8ea8546ca365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b1a31d643b8e479885a52ffdd3bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473579688eab56b4586210e765a682c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3932e50435c077f47a83b74626cab748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb966f4ab08de8459ee340ef690e69f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a86e8b28dc75624a9e23fd25b57afb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cddd078fc344734a8d119ec755a17f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 4
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3761a6f0ce23d0043bb7f1108845f0d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d723baadab252540a0728f64f3bf97a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6428297d28e4f04685790fcc2de9ddf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5c6b313a876e946ad0de6e5d17c7cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4c4ac745818dd4b8ac7227403dc7ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Arkanoid iOS - General Sprites_158
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 989
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003260e4351eec844becd2acd02a562d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b35333069e70c9242933baff10e1fffb
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

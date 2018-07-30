@@ -20,10 +20,8 @@ public class LevelManager : MonoBehaviour {
     // Use this for initialization
     void Start () 
     {
-        gameSession = FindObjectOfType<GameSession>();
         sceneLoader = FindObjectOfType<SceneLoader>();
         Cursor.visible = false;
-        gameSession.StartLevel();
     }
 
     public void CountBreakableBlocks()
@@ -41,7 +39,6 @@ public class LevelManager : MonoBehaviour {
             hasStarted = false;
             winCanvas.enabled = true;
             Cursor.visible = true;
-            gameSession.TurnOffLivesText();
             sceneLoader.LoadNextLevel();
         }
     }
@@ -61,10 +58,10 @@ public class LevelManager : MonoBehaviour {
     private void PauseGame()
     {
         pauseMenu.enabled = true;
-        gameSpeedBeforePause = gameSession.gameSpeed;
+        gameSpeedBeforePause = FindObjectOfType<GameSession>().gameSpeed;
         paddle1.enableMovement = false;
         Cursor.visible = true;
-        gameSession.gameSpeed = 0f;
+        FindObjectOfType<GameSession>().gameSpeed = 0f;
     }
 
     private void ResumeGame()
@@ -72,7 +69,7 @@ public class LevelManager : MonoBehaviour {
         pauseMenu.enabled = false;
         paddle1.enableMovement = true;
         Cursor.visible = false;
-        gameSession.gameSpeed = gameSpeedBeforePause;
+        FindObjectOfType<GameSession>().gameSpeed = gameSpeedBeforePause;
     }
 
     public void ResetBallToPaddle()

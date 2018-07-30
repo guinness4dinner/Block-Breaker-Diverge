@@ -56,3 +56,4 @@ MonoBehaviour:
   winCanvas: {fileID: 0}
   breakableBlocks: 0
   pauseMenu: {fileID: 0}
+  hasStarted: 0

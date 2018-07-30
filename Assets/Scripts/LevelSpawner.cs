@@ -46,7 +46,7 @@ public class LevelSpawner : MonoBehaviour
     private void SpawnBlock(int row, int col, int blocktype, int blockcolor)
     {
         Transform block;
-        block = Instantiate(blockTypes[blocktype - 1], new Vector3(col + 0.5f, 10.35f - (row * 0.35f), 0), Quaternion.identity);
+        block = Instantiate(blockTypes[blocktype - 1], new Vector3(col + 0.64f, 10.35f - (row * 0.5f), 8.8f - 0.8f * row + 0.16f - col * 0.05f), Quaternion.identity);
         if (blockcolor != 0)
         {
             block.GetComponent<SpriteRenderer>().color = colors[blockcolor - 1];

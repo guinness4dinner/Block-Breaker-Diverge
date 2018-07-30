@@ -7,15 +7,13 @@ public class GameSession : MonoBehaviour {
 
     
     [SerializeField] int lives = 3;
-    [SerializeField] TextMeshProUGUI livesText;
-    [SerializeField] TextMeshProUGUI scoreText;
     [Range(0.1f, 10f)] public float gameSpeed = 1f;
     [SerializeField] int pointsPerBlockBreak = 72;
     [SerializeField] int currentScore = 0;
-    static GameSession instance = null;
 
-    SceneLoader sceneLoader;
-    LevelManager levelManager;
+    static GameSession instance = null;
+    [SerializeField] TextMeshProUGUI livesText;
+    [SerializeField] TextMeshProUGUI scoreText;
 
     private void Awake ()
     {
@@ -30,6 +28,11 @@ public class GameSession : MonoBehaviour {
         }
     }
 
+    private void Start()
+    {
+        livesText.text = "Paddles: " + lives.ToString();
+        scoreText.text = "Score: " + currentScore.ToString();
+    }
     // Update is called once per frame
     void Update () 
     {
@@ -38,8 +41,8 @@ public class GameSession : MonoBehaviour {
 
     public void StartLevel()
     {
-        sceneLoader = FindObjectOfType<SceneLoader>();
-        levelManager = FindObjectOfType<LevelManager>();
+        livesText = GameObject.Find("Game Canvas/Lives Text").GetComponent<TextMeshProUGUI>();
+        scoreText = GameObject.Find("Game Canvas/Score Text").GetComponent<TextMeshProUGUI>();
         livesText.text = "Paddles: " + lives.ToString();
         scoreText.text = "Score: " + currentScore.ToString();
     }
@@ -59,7 +62,7 @@ public class GameSession : MonoBehaviour {
         else
         {
             LostPaddle();
-            levelManager.ResetBallToPaddle();
+            FindObjectOfType<LevelManager>().ResetBallToPaddle();
         }
     }
 
@@ -72,7 +75,7 @@ public class GameSession : MonoBehaviour {
     {
         Cursor.visible = true;
         TurnOffLivesText();
-        sceneLoader.LoadGameOver();
+        FindObjectOfType<SceneLoader>().LoadGameOver();
     }
 
     private void LostPaddle()

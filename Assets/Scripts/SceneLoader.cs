@@ -7,16 +7,20 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadNextLevel()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (currentSceneIndex < SceneManager.sceneCountInBuildSettings - 1)
-        {
-            SceneManager.LoadScene(currentSceneIndex + 1);
-        }
-        else
-        {
-            LoadMainMenu();
-        }
-        
+           int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+           if (currentSceneIndex < SceneManager.sceneCountInBuildSettings - 1)
+           {
+               SceneManager.LoadScene(currentSceneIndex + 1);
+           }
+           else
+           {
+               LoadMainMenu();
+           } 
+    }
+
+    public void LoadLevel2Debug()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void LoadMainMenu()
