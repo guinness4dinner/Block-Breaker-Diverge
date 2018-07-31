@@ -11,19 +11,19 @@ public class GameSession : MonoBehaviour {
     [SerializeField] int pointsPerBlockBreak = 72;
     [SerializeField] int currentScore = 0;
 
-    static GameSession instance = null;
+    public static GameSession Instance = null;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
 
     private void Awake ()
     {
-        if (instance != null)
+        if (Instance != null)
         {
             Destroy(gameObject);
         }
         else
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }
@@ -39,13 +39,6 @@ public class GameSession : MonoBehaviour {
         Time.timeScale = gameSpeed;
 	}
 
-    public void StartLevel()
-    {
-        livesText = GameObject.Find("Game Canvas/Lives Text").GetComponent<TextMeshProUGUI>();
-        scoreText = GameObject.Find("Game Canvas/Score Text").GetComponent<TextMeshProUGUI>();
-        livesText.text = "Paddles: " + lives.ToString();
-        scoreText.text = "Score: " + currentScore.ToString();
-    }
 
     public void IncreaseScore()
     {
@@ -79,9 +72,14 @@ public class GameSession : MonoBehaviour {
     }
 
     private void LostPaddle()
-    {
-       
+    {      
         lives--;
+        livesText.text = "Paddles: " + lives.ToString();
+    }
+
+    public void IncreaseLives()
+    {
+        lives++;
         livesText.text = "Paddles: " + lives.ToString();
     }
 

@@ -5,9 +5,18 @@ using UnityEngine;
 
 public class LoseCollider : MonoBehaviour 
 {
+    GameSession gameSession;
+
+    private void Start()
+    {
+        gameSession = GameSession.Instance;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        FindObjectOfType<GameSession>().LostBall();
+        if (collision.gameObject.GetComponent<Ball>())
+        {
+            gameSession.LostBall();
+        }
     }
 
 }

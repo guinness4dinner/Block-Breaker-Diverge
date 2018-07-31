@@ -161,6 +161,14 @@ TextureImporter:
     21300312: Mobile - Arkanoid iOS - General Sprites_156
     21300314: Mobile - Arkanoid iOS - General Sprites_157
     21300316: Mobile - Arkanoid iOS - General Sprites_158
+    21300318: iOSArkanoid_0
+    21300320: iOSArkanoid_1
+    21300322: iOSArkanoid_2
+    21300324: iOSArkanoid_3
+    21300326: extrapaddle
+    21300328: laserPU
+    21300330: missilePU
+    21300332: catchPU
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -289,186 +297,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c543e421704115643804b4ab468787de
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 676
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f42c1633719362f4a96d1a767c353726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 652
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 230faed277540b140beba03c3502cb34
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 628
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2245c7bf49c8b6543bd94fbb15c67c15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 604
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20b40c977efcfca4d839242964876d97
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 580
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b47cae45a0f9f74cb66544df9bb8a15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 556
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938b0916b72b1834e8d3c082faf74180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 532
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 470fd284a5ae5c34284f18e0e68edd3c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 508
-        width: 704
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64c495f63a47de94e9ae4a086481ab88
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Arkanoid iOS - General Sprites_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 442
-        width: 704
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e557d4622106f4a47a465b044f1e8966
       vertices: []
       indices: 
       edges: []
@@ -3429,6 +3257,166 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 003260e4351eec844becd2acd02a562d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iOSArkanoid_0
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 508
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a595e6ee10667414888389504aaa9388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iOSArkanoid_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0d279861ff9b64f92082329d12158a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iOSArkanoid_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad34fc9c5c445a43a9ffa789a648310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iOSArkanoid_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 556
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071ee1b82ff60db418f658d62db1b38a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extrapaddle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2264a79336eb5479f04c1750549e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserPU
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b133b460df9762448abe9d88138f1873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missilePU
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc6ef20a7563d24eaf790126f9642bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: catchPU
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ccaed5c18ebd45afdac9666f60ebf
       vertices: []
       indices: 
       edges: []

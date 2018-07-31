@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour {
     public Paddle paddle1;
     [SerializeField] Canvas winCanvas;
     [SerializeField] int breakableBlocks = 0; //serialized for debug purposes
+    public PowerUp[] powerUpTypes;
     public Canvas pauseMenu;
     public bool hasStarted = false;
 
@@ -20,6 +21,7 @@ public class LevelManager : MonoBehaviour {
     // Use this for initialization
     void Start () 
     {
+        gameSession = GameSession.Instance;
         sceneLoader = FindObjectOfType<SceneLoader>();
         Cursor.visible = false;
     }
@@ -58,7 +60,7 @@ public class LevelManager : MonoBehaviour {
     private void PauseGame()
     {
         pauseMenu.enabled = true;
-        gameSpeedBeforePause = FindObjectOfType<GameSession>().gameSpeed;
+        gameSpeedBeforePause = gameSession.gameSpeed;
         paddle1.enableMovement = false;
         Cursor.visible = true;
         FindObjectOfType<GameSession>().gameSpeed = 0f;
@@ -69,7 +71,7 @@ public class LevelManager : MonoBehaviour {
         pauseMenu.enabled = false;
         paddle1.enableMovement = true;
         Cursor.visible = false;
-        FindObjectOfType<GameSession>().gameSpeed = gameSpeedBeforePause;
+        gameSession.gameSpeed = gameSpeedBeforePause;
     }
 
     public void ResetBallToPaddle()
