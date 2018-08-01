@@ -27,16 +27,21 @@ public class Block : MonoBehaviour {
     {
         if (currentBlockIndex > blockBroken.Length - 1)
         {
-            gameSession.IncreaseScore();
-            levelManager.BlockDestoyed();
-            RollForPowerUp(blockBroken.Length);
-            Destroy(gameObject);
+            DestroyBlock();
         }
-            else
+        else
             {
                 GetComponent<SpriteRenderer>().sprite = blockBroken[currentBlockIndex];
                 currentBlockIndex++;
             }
+    }
+
+    public void DestroyBlock()
+    {
+        gameSession.IncreaseScore();
+        levelManager.BlockDestoyed();
+        RollForPowerUp(blockBroken.Length);
+        Destroy(gameObject);
     }
 
     private void RollForPowerUp(int blockType)

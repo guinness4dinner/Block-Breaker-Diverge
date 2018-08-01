@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class MissilePowerUp : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    Paddle paddle1;
+
+    public void Activate()
+    {
+        paddle1 = FindObjectOfType<Paddle>();
+        paddle1.MissilePaddle();
+    }
 }

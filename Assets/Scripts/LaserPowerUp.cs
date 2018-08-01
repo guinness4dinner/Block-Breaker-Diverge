@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class LaserPowerUp : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    Paddle paddle1;
+
+    public void Activate()
+    {
+        Debug.Log("LASER ACTIVATE");
+        paddle1 = FindObjectOfType<Paddle>();
+        paddle1.LaserPaddle();
+    }
 }

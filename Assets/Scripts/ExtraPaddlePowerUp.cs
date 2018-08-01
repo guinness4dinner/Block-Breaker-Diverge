@@ -5,7 +5,6 @@ using UnityEngine;
 public class ExtraPaddlePowerUp : MonoBehaviour {
 
     GameSession gameSession;
-    float speedIncrease = 25f;
 
     private void Start()
     {

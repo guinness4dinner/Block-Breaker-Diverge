@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenWidthInUnits: 16
-  paddleMinClamp: 1
-  paddleMaxClamp: 15
+  paddleMinClampNormal: 1
+  paddleMaxClampNormal: 15
   paddleMinClampNarrow: 0.71
   paddleMaxClampNarrow: 15.31
   paddleMinClampExt: 1.4
@@ -197,7 +197,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 661a8e99965f40246b0bca07ef34ab0b, type: 3}
   - {fileID: 21300000, guid: 3fb8650bf7d4c5a4bb5cfee8b16b0caf, type: 3}
   - {fileID: 21300000, guid: dc1d1a3826bf2c643a2a2effee0b0ec5, type: 3}
+  missile: {fileID: 114711238116022124, guid: 17f8d8b5888c13b43a40b60556e5ee4f, type: 2}
+  laserBeam: {fileID: 114410668901364702, guid: 9afe3377aa244ee47889c863ee91f746,
+    type: 2}
   enableMovement: 1
+  enableMissile: 0
+  enableLaser: 0
 --- !u!212 &212318248524485164
 SpriteRenderer:
   m_ObjectHideFlags: 1
