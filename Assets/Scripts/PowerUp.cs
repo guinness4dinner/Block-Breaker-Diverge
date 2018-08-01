@@ -35,8 +35,8 @@ public class PowerUp : MonoBehaviour {
         Debug.Log(gameObject.name);
         if (gameObject.GetComponent<FastPowerUp>()) { gameObject.GetComponent<FastPowerUp>().Activate(); return; }
         if (gameObject.GetComponent<SlowPowerUp>()) { gameObject.GetComponent<SlowPowerUp>().Activate(); return; }
-        if (gameObject.GetComponent<ExtendPowerUp>()) return;
-        if (gameObject.GetComponent<NarrowPowerUp>()) return;
+        if (gameObject.GetComponent<ExtendPowerUp>()) { gameObject.GetComponent<ExtendPowerUp>().Activate(); return; }
+        if (gameObject.GetComponent<NarrowPowerUp>()) { gameObject.GetComponent<NarrowPowerUp>().Activate(); return; }
         if (gameObject.GetComponent<CatchPowerUp>()) return;
         if (gameObject.GetComponent<LaserPowerUp>()) return;
         if (gameObject.GetComponent<MissilePowerUp>()) return;

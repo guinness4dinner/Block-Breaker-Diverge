@@ -21,7 +21,7 @@ public class LevelManager : MonoBehaviour {
     // Use this for initialization
     void Start () 
     {
-        gameSession = GameSession.Instance;
+        gameSession = GameSession.instance;
         sceneLoader = FindObjectOfType<SceneLoader>();
         Cursor.visible = false;
     }
@@ -36,13 +36,32 @@ public class LevelManager : MonoBehaviour {
         breakableBlocks--;
         if (breakableBlocks <= 0)
         {
-            Destroy(ball1.GetComponent<Rigidbody2D>());
-            paddle1.enableMovement = false;
-            hasStarted = false;
-            winCanvas.enabled = true;
-            Cursor.visible = true;
-            sceneLoader.LoadNextLevel();
+            LoadNextLevel();
         }
+    }
+
+    private void LoadNextLevel()
+    {
+        Destroy(ball1.GetComponent<Rigidbody2D>());
+        paddle1.enableMovement = false;
+        hasStarted = false;
+        winCanvas.enabled = true;
+        ResetPowerUps();
+        //add animated particle system and delay here.
+        Cursor.visible = true;
+        sceneLoader.LoadNextLevel();
+    }
+
+    public void NewPaddle()
+    {
+        ResetPowerUps();
+        ResetBallToPaddle();
+    }
+
+    private void ResetPowerUps()
+    {
+        gameSession.SetDefaultGameSpeed();
+        paddle1.NormalPaddle();
     }
 
     public void TogglePauseMenu()
@@ -74,7 +93,7 @@ public class LevelManager : MonoBehaviour {
         gameSession.gameSpeed = gameSpeedBeforePause;
     }
 
-    public void ResetBallToPaddle()
+    private void ResetBallToPaddle()
     {
         paddle1.enableMovement = false;
         ball1.GetComponent<Rigidbody2D>().Sleep();

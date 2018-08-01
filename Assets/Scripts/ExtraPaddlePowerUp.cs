@@ -9,7 +9,7 @@ public class ExtraPaddlePowerUp : MonoBehaviour {
 
     private void Start()
     {
-        gameSession = GameSession.Instance;
+        gameSession = GameSession.instance;
     }
 
     public void Activate()

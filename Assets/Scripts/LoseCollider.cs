@@ -9,7 +9,7 @@ public class LoseCollider : MonoBehaviour
 
     private void Start()
     {
-        gameSession = GameSession.Instance;
+        gameSession = GameSession.instance;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -17,7 +17,7 @@ public class Block : MonoBehaviour {
 
     private void Start()
     {
-        gameSession = GameSession.Instance;
+        gameSession = GameSession.instance;
         levelManager = FindObjectOfType<LevelManager>();
         levelManager.CountBreakableBlocks();
         powerUpTypes = levelManager.powerUpTypes;

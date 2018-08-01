@@ -7,32 +7,41 @@ public class GameSession : MonoBehaviour {
 
     
     [SerializeField] int lives = 3;
-    [Range(0.1f, 10f)] public float gameSpeed = 1f;
+    [Range(0.1f, 10f)] public float defaultGameSpeed = 1f;
     [SerializeField] int pointsPerBlockBreak = 72;
     [SerializeField] int currentScore = 0;
 
-    public static GameSession Instance = null;
+    public static GameSession instance = null;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
 
+    public float gameSpeed;
+
     private void Awake ()
     {
-        if (Instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
         else
         {
-            Instance = this;
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
     }
 
     private void Start()
     {
+        SetDefaultGameSpeed();
         livesText.text = "Paddles: " + lives.ToString();
         scoreText.text = "Score: " + currentScore.ToString();
     }
+
+    public void SetDefaultGameSpeed()
+    {
+        gameSpeed = defaultGameSpeed;
+    }
+
     // Update is called once per frame
     void Update () 
     {
@@ -55,12 +64,13 @@ public class GameSession : MonoBehaviour {
         else
         {
             LostPaddle();
-            FindObjectOfType<LevelManager>().ResetBallToPaddle();
+            FindObjectOfType<LevelManager>().NewPaddle();
         }
     }
 
     public void ResetGame()
     {
+        instance = null;
         Destroy(gameObject);
     }
 
